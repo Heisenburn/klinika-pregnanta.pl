@@ -56,9 +56,18 @@ nav li {
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
-    color: #371267;
+
     cursor: pointer;
     text-transform: uppercase;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #371267;
+}
+
+nav li a:hover {
+    color: #E83278;
 }
 
 #banner {
@@ -100,12 +109,6 @@ nav li {
     top: 250px;
 }
 
-#bannerLowerLine {
-    display: block;
-    height: 50px;
-    width: 100%;
-    background: #F63680;
-}
 
 #quoteBoxContainer {
     background: #E4E4E4;
@@ -128,7 +131,7 @@ nav li {
 
     font-style: italic;
 
-    font-size: 16px;
+    font-size: 19px;
     line-height: 147.69%;
 
 
@@ -140,16 +143,32 @@ nav li {
 
 #services {
 
-    height: 700px;
+    padding: 100px 0 200px;
 
     background: rgba(164, 164, 164, 0.38);
     display: flex;
- 
-align-items: center;
-flex-direction: column;
+
+    align-items: center;
+    flex-direction: column;
 }
 
-#services h2 {
+h2 {
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 147.69%;
+    /* or 32px */
+
+    letter-spacing: 0.015em;
+    margin: 0;
+    padding: 50px;
+
+
+    color: #000000;
+}
+
+h3 {
+
 
     font-weight: 500;
     font-size: 22px;
@@ -158,59 +177,62 @@ flex-direction: column;
 
     letter-spacing: 0.015em;
     margin: 0;
-    padding: 50px 0;
-    text-align: center;
+    padding: 0 0 50px;
+
     color: #000000;
+
 }
 
 #servicesCarrousel {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 60%;
-    
+    width: 100%;
+
 }
 
 .serviceSliderElement {
     margin: 0 20px;
     background: rgba(247, 52, 127, 0.79);
     border-radius: 6px;
-    
-    height: 200px !important;
+
+    height: 170px !important;
+    padding: 20px;
 
     display: flex !important;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.serviceSliderElement:nth-of-type(2n){
-    
-background: #F63680 !important;
+.serviceSliderElement:nth-of-type(2n) {
+
+    background: #F63680 !important;
 }
 
-.serviceSliderElement p{
- 
- 
-font-size: 18px;
-line-height: 159.69%;
-/* or 29px */
+.serviceSliderElement p {
 
-padding: 40px;
-text-align: center;
-letter-spacing: -0.01em;
- 
+
+    font-size: 18px;
+    line-height: 159.69%;
+    /* or 29px */
+
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
 }
 
 .slick-prev:before {
     content: "←";
- ;
-}
-.slick-next:before {
-    content: "→";
-   
+    ;
 }
 
-.slick-arrow{
+.slick-next:before {
+    content: "→";
+
+}
+
+.slick-arrow {
     border: none;
     border-radius: 10px;
     padding: 20px;
@@ -219,11 +241,305 @@ letter-spacing: -0.01em;
     color: black;
 }
 
-.slick-arrow:hover{
+
+
+.slick-arrow:hover {
     background-color: #523478;
-}
-.slick-arrow:active {
-    
-    box-shadow: 0 5px #666;
+    color: white !important;
+    box-shadow: 0 5px #F63680;
+    ;
     transform: translateY(4px);
-  }
+}
+
+#doctors {
+
+
+    background: #513478;
+}
+
+#descriptionBox {
+
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+
+
+#descriptionBox p {
+    padding: 0 50px 10px;
+    font-size: 20px;
+    line-height: 147.69%;
+    /* or 30px */
+    text-align: center;
+
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+
+
+}
+
+
+button {
+    border-radius: 10px;
+    padding: 20px;
+    background: gray;
+    border: none;
+    color: black;
+    font-family: Roboto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#oneDoctor button {
+    background: #F63680;
+}
+
+button:hover {
+
+    box-shadow: 0 5px rgba(0, 0, 0, 0.336);
+    transform: translateY(4px);
+}
+
+#oneDoctor .doctor {
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 50px;
+
+    text-align: center;
+    width: 372px;
+    height: 456px;
+
+    position: relative;
+
+    border-radius: 13px;
+
+    color: white;
+
+}
+
+#imageDoctor {
+    background: url(img/3af91ce2b60d0b971d6a0e645177e131_large.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+
+}
+
+
+
+#oneDoctor {
+    padding: 0 0 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#oneDoctor p {
+    text-align: justify;
+}
+
+.content {
+
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+#reviews {
+    height: 1000px;
+    position: relative;
+}
+
+#reviews img,
+#contact img {
+    position: absolute;
+    bottom: 0;
+    width: 543px;
+    height: 536px;
+}
+
+#money {
+    height: 1000px;
+    background: #F0F0F0;
+}
+
+#moneyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moneyElement {
+    display: flex;
+    margin: 10px 0;
+}
+
+#money p {
+    font-weight: normal;
+    font-size: 25px;
+
+}
+
+.moneyService {
+    background: #F63680;
+    display: block;
+    width: 755px;
+    height: 90px;
+    color: black;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.servicePrice p {
+    color: white;
+
+}
+
+.moneyService p {
+    font-size: 20px !important;
+}
+
+
+
+
+
+.servicePrice {
+    display: block;
+    background: #523478;
+    width: 397px;
+    height: 90px;
+    text-align: center;
+}
+
+
+#contact {
+    height: 750px;
+    position: relative;
+}
+
+#contactForm {
+
+    position: absolute;
+    width: 349px;
+    height: 400px;
+    bottom: 200px;
+    left: 200px;
+    background: #E83278;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#contactForm input,
+#contactForm textarea {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 147.69%;
+    color: #FFFCFC;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #FFFFFF;
+
+}
+
+textarea {
+    resize: none;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin: 20px 0;
+    width: 15vw;
+}
+
+#contactInfoContainer {
+    position: absolute;
+    right: 500px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#blueLineContact{
+    background: #371267;
+}
+
+#roseLineContact{
+    background:  #E83278;
+}
+
+#blueLineContact, #roseLineContact{
+    display: block;
+    width: 3px;
+    height: 30vh;
+    z-index: -2;
+}
+
+#contactValues{
+    
+    margin: 50px 0;
+  
+}
+
+.value{
+    display: flex;
+     
+    align-items: center;
+    padding: 5px 0;
+}
+
+#googleMap{
+    display: block;
+    height: 400px;
+    background: gray;
+}
+
+.value p{
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+footer{
+    height: 277px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #371267;
+    color: white;
+}
+
+footer a{
+    color: #E83278;
+}

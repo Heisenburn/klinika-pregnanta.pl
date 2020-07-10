@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
+ 
 
 #top-header {
 
@@ -19,9 +19,10 @@ body {
 
 #social-icons-top-header svg {
 
-    width: 18px;
-    height: 21px;
+  
     margin: 0 5px;
+    height: 26px;
+    width: 24px
 }
 
 #mainHeader {
@@ -29,7 +30,7 @@ body {
     height: 108px;
 
 
-    background: #DDDDDD;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     z-index: 999;
@@ -45,7 +46,7 @@ nav ul {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    height: 100%;
+  
 
 }
 
@@ -53,7 +54,7 @@ nav li {
     list-style-type: none;
     margin: 0 70px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 17px;
     line-height: 20px;
 
@@ -76,9 +77,7 @@ nav li a:hover {
 
 }
 
-#banner img {
-    min-width: 100%;
-}
+ 
 
 #svgInBanner {
     position: absolute;
@@ -94,13 +93,13 @@ nav li a:hover {
 #textInBanner {
     font-weight: 300;
     position: absolute;
-    width: 253px;
+    width: 16vw;
 
     color: white;
 
     font-style: italic;
 
-    font-size: 30px;
+    font-size: 1.7em;
 
     text-align: center;
     letter-spacing: -0.035em;
@@ -110,15 +109,15 @@ nav li a:hover {
 }
 
 
-#quoteBoxContainer {
-    background: #E4E4E4;
+.quoteBoxContainer {
+    background: white;
 
 }
 
 #quoteBox {
 
     padding: 50px;
-    width: 636px;
+    width: 65vw;
 
     margin: 0 auto;
     position: relative;
@@ -131,7 +130,7 @@ nav li a:hover {
 
     font-style: italic;
 
-    font-size: 19px;
+    font-size: 1.2rem;
     line-height: 147.69%;
 
 
@@ -145,7 +144,7 @@ nav li a:hover {
 
     padding: 100px 0 200px;
 
-    background: rgba(164, 164, 164, 0.38);
+    background: rgba(236, 236, 236, 0.38);
     display: flex;
 
     align-items: center;
@@ -169,7 +168,7 @@ h2 {
 
 h3 {
 
-
+    text-align: center;
     font-weight: 500;
     font-size: 22px;
     line-height: 147.69%;
@@ -212,7 +211,7 @@ h3 {
 .serviceSliderElement p {
 
 
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 159.69%;
     /* or 29px */
 
@@ -251,6 +250,14 @@ h3 {
     transform: translateY(4px);
 }
 
+.slick-arrow:active{
+    background-color: #000000;
+    color: white !important;
+    box-shadow: 0 5px #F63680;
+    ;
+    transform: translateY(4px);
+}
+
 #doctors {
 
 
@@ -259,7 +266,7 @@ h3 {
 
 #descriptionBox {
 
-    width: 700px;
+    width: 45vw;
     display: flex;
     flex-direction: column;
 
@@ -304,6 +311,16 @@ button:hover {
     transform: translateY(4px);
 }
 
+#svgDoctors{
+    position: absolute;
+right: 0;
+z-index: 0;
+}
+
+#oneDoctor{
+    position: relative;
+}
+
 #oneDoctor .doctor {
 
     display: flex;
@@ -314,7 +331,7 @@ button:hover {
     margin-left: 50px;
 
     text-align: center;
-    width: 372px;
+ 
     height: 456px;
 
     position: relative;
@@ -329,8 +346,8 @@ button:hover {
     background: url(img/3af91ce2b60d0b971d6a0e645177e131_large.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 250px;
-    height: 250px;
+    width: 176px;
+    height: 170px;
 
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -341,7 +358,7 @@ button:hover {
 
 
 #oneDoctor {
-    padding: 0 0 20px;
+    
     display: flex;
     justify-content: center;
 
@@ -362,22 +379,36 @@ button:hover {
 }
 
 
-#reviews {
-    height: 1000px;
-    position: relative;
+
+#znanyLekarzWidgets{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-#reviews img,
-#contact img {
+#znanyLekarzWidgets iframe{
+    width: auto !important;
+}
+
+#reviews{
+    background: #513478;
+    padding-bottom: 100px;
+}
+
+
+
+
+#contact #leftWave {
     position: absolute;
     bottom: 0;
-    width: 543px;
+    left: 0;
     height: 536px;
+    z-index: 0;
 }
 
 #money {
     height: 1000px;
-    background: #F0F0F0;
+    background: rgba(236, 236, 236, 0.38);
 }
 
 #moneyContainer {
@@ -393,20 +424,19 @@ button:hover {
 
 #money p {
     font-weight: normal;
-    font-size: 25px;
-
+    font-size: 1.3em;
 }
 
 .moneyService {
     background: #F63680;
     display: block;
-    width: 755px;
+    width: 50vw;
     height: 90px;
     color: black;
     padding-left: 10px;
     display: flex;
     align-items: center;
-
+    
 }
 
 .servicePrice p {
@@ -415,7 +445,7 @@ button:hover {
 }
 
 .moneyService p {
-    font-size: 20px !important;
+    font-size: 20px;
 }
 
 
@@ -425,7 +455,7 @@ button:hover {
 .servicePrice {
     display: block;
     background: #523478;
-    width: 397px;
+    width: 25vw;
     height: 90px;
     text-align: center;
 }
@@ -434,12 +464,13 @@ button:hover {
 #contact {
     height: 750px;
     position: relative;
+    background: white;
 }
 
 #contactForm {
-
+    padding: 0 30px;
     position: absolute;
-    width: 349px;
+    width: 18vw;
     height: 400px;
     bottom: 200px;
     left: 200px;
@@ -478,17 +509,17 @@ form {
 
 .form-group {
     margin: 20px 0;
-    width: 15vw;
+    
 }
 
 #contactInfoContainer {
     position: absolute;
-    right: 500px;
+    right: 25vw;
     top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    z-index: 0;
 
 }
 
@@ -520,15 +551,18 @@ form {
     padding: 5px 0;
 }
 
-#googleMap{
-    display: block;
-    height: 400px;
-    background: gray;
-}
+ 
 
 .value p{
     font-size: 18px;
     padding-left: 10px;
+}
+
+#googleMap{
+    border-top: 5px solid #513478;
+    border-bottom: 5px solid #513478;
+    position: relative;
+
 }
 
 footer{
@@ -536,10 +570,362 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #371267;
+    background: #1f0d37;
     color: white;
+    font-size: 0.9rem;
 }
 
 footer a{
     color: #E83278;
+    text-decoration: none;
 }
+
+::placeholder {
+    color: #FFFCFC;
+}
+
+#znanyLekarz-main-header{
+    display: none;
+}
+
+
+ 
+  
+  nav ul {
+     
+   display: none;
+  }
+  
+  nav ul.opening {
+    display: flex;
+    flex-direction: column;
+   
+   
+  }
+
+  .fullHeightHeader{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100% !important;
+  }
+
+  .overflowHidden{
+      overflow: hidden;
+  }
+   
+  
+   
+  nav a {
+     
+    display: block;
+     
+  }
+
+  .displayFlex{
+      display: flex !important;
+  }
+ 
+  .displayNone{
+      display: none !important;
+  }
+ 
+  .displayBlock{
+      display: block !important;
+  }
+
+  
+  .menu-toggle {
+   
+    cursor: pointer;
+  }
+  
+  .hamburger, .hamburger::before, .hamburger::after {
+    content: '';
+    display: block;
+    background: #EBEBD3;
+    height: 3px;
+    width: 2em;
+    border-radius: 3px;
+    -webkit-transition: all ease-in-out 350ms;
+    transition: all ease-in-out 350ms;
+  }
+  
+  .hamburger::before {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+  
+  .hamburger::after {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  
+  .open .hamburger {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .open .hamburger::before { display: none; }
+  
+  .open .hamburger::after {
+    -webkit-transform: translateY(-1px) rotate(-90deg);
+    transform: translateY(-1px) rotate(-90deg);
+  }
+
+  #menuOverlaySvg{
+      display: none;
+      position: absolute;
+      left: 0;
+z-index: -1;
+bottom: 0;
+  }
+ 
+  #social-icons-menu-overlay{
+      display: none;
+  }
+
+  #social-icons-menu-overlay svg{
+
+    margin: 0 10px;
+
+
+
+}
+
+#arrowsSvg{
+
+    display: none;
+}
+
+  @media screen and (max-width: 1000px){
+
+    #reviewContainer p {
+        font-size: 1rem;
+    }
+
+    #contactForm{
+        position: relative !important;
+left: 0;
+bottom: 20px;
+    }
+
+    #arrowsSvg{
+        margin-top: 30px;
+        display: block;
+    }
+
+    #leftWave{
+        width: 100%;
+        height: auto !important;
+    }
+
+    #reverseContainer{
+    display: flex;
+flex-direction: column-reverse;
+
+    }
+    #contactForm{
+        width:250px;
+    }
+
+
+    #contact{
+        height: auto !important;
+        display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+    }
+
+    #blueLineContact, #roseLineContact{
+        display: none !important;
+    }
+
+    .moneyService p{
+ 
+        font-size: 1em !important;
+    }
+
+   #reviews .quoteBoxContainer{
+        width: 80% !important;
+    }
+
+    #reviews iframe{
+        margin: 50px 0;
+    }
+
+    #znanyLekarzWidgets{
+        flex-direction: column;
+    }
+    
+    #doctors h2{
+        position: relative;
+    }
+
+    #svgDoctors{
+        width: 90%;
+        right: 0;
+    }
+
+    .content{
+        padding: 20px;
+    }
+
+    h2{
+        text-align: center;
+    }
+    #oneDoctor{
+        flex-direction: column-reverse;
+    }
+
+    #oneDoctor p{
+        text-align: center;
+    }
+
+
+    .doctor{
+        width: auto !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+ 
+
+    #descriptionBox{
+        width: auto !important;
+        justify-content: center;
+    }
+    
+    #logoInBanner{
+        position: relative !important;
+        top: 0;
+        left: 0;
+
+    }
+    
+    #logoInBanner svg{
+        width: 25vh;
+    }
+
+    #textInBanner{
+        width: 80vw;
+        background: #00000075;
+        border-radius: 20px;
+        padding: 20px;
+        position: static;        
+   
+
+    }
+
+    #banner-image, #top-header, .slick-arrow{
+        display: none !important;
+    }
+
+    
+    #mainBanner{   
+         background: #513478;
+ 
+         margin-top:100px;
+        height: 500px;
+      
+        display: flex;
+flex-direction: column;
+align-items: center;
+    }
+    
+    #logoInBanner, #contactForm, #contactInfoContainer{
+        position: static;
+        
+    }
+
+  
+
+     
+    nav li a:hover{
+        color: white;
+    }
+
+  nav  li{
+        font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+ 
+border-bottom: 1px solid white;
+padding: 30px;
+    }
+ 
+    header{
+        position: fixed;
+left: 0;
+right: 0;
+top: 0;
+z-index: 999999;
+
+    }
+   
+   
+
+    #mainHeader{
+
+        background: #E83278;
+    }
+
+    #znanyLekarz-main-header{
+        display: block;
+        width: 6vw;
+    }
+
+    .site-nav{
+        display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+        }
+
+    .site-nav-overlayMenu{
+        
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+       padding: 0;
+    
+    }
+
+}
+
+  
+  @media (min-width: 1000px) {
+
+    .menu-toggle { display: none; }
+    
+    nav ul {
+      display: flex;
+
+      
+       
+      
+    }
+ 
+    
+    
+    
+    nav a:hover,  nav a:focus { background-color: rgba(255,255,255,.10); }
+    
+    
+    
+    nav {
+        height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      text-align: center;
+     
+    }
+    
+    }
+    

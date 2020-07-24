@@ -37,7 +37,7 @@ define( 'DB_CHARSET', 'utf8' );
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-define( 'WP_DEBUG', true );
+ 
  
 
 /**#@+
@@ -96,7 +96,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+ 
 
 /* That's all, stop editing! Happy publishing. */
 

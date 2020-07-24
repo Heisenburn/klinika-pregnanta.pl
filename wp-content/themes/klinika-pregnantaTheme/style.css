@@ -10,7 +10,6 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
  
 
 #top-header {
@@ -104,7 +103,7 @@ nav li a:hover {
 #textInBanner {
     font-weight: 300;
     position: absolute;
-    width: 18vw;
+    width: 16vw;
 
     color: white;
 
@@ -115,7 +114,7 @@ nav li a:hover {
     text-align: center;
     letter-spacing: -0.035em;
 
-    right: 37px;
+    right: 13px;
     top: 70px;
 }
 
@@ -208,6 +207,8 @@ h3 {
     align-items: center !important;
     width: 100%;
 
+ 
+  
 }
 
 .serviceSliderElement {
@@ -227,6 +228,19 @@ h3 {
 
     background: #F63680 !important;
   
+}
+
+ 
+
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+  
+    width: 300px;
 }
 
 .serviceSliderElement p {
@@ -279,52 +293,8 @@ h3 {
     transform: translateY(4px);
 }
 
-#doctorsWrapper{
-    display: flex;
-    width: 100%;
-   
-}
-
-#doctors {
-    padding-bottom: 100px;
-    background: #513478;
-    position: relative;
-}
-
-/* #doctors .slick-slide {
-    width:20vw;
-} */
-
-/* #doctors .slick-slide:nth-of-type(3n){
-    opacity: 0.4;
-} */
-
-#descriptionBox {
-
-   
-    display: flex;
-    flex-direction: column;
-     
-    align-items: center;
-}
-
-
-
-
-#descriptionBox p {
  
-    font-size: 17px;
-    line-height: 147.69%;
-    /* or 30px */
-    text-align: center;
-
-    letter-spacing: 0.015em;
-
-    color: #FFFFFF;
-
-
-}
-
+ 
 form button{
     background: white;
 }
@@ -339,9 +309,7 @@ button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.doctor button{
-    background: #F63680;
-}
+
 
 button:hover, button:active {
 
@@ -358,98 +326,139 @@ top: 0;
 
 #doctorsContainer{
     display: flex;
-    justify-content: flex-end;
+ 
+}
+
+.doctor button{
+    background: #F63680;
+}
+
+
+
+#doctors{
+    position: relative;
+    background: #523478;
+}
+ 
+
+.doctor li{
+    color: white;
 }
 
 .doctor{
-    position: relative;
-}
 
-.doctor .doctor {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 50px;
-    text-align: center;
-    position: relative;
-    border-radius: 13px;
-    color: white;
-
-}
-
-#imageDoctor {
-    background: url(img/3af91ce2b60d0b971d6a0e645177e131_large.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 176px;
-    height: 170px;
-
-    margin: 20px;
-    max-width: 100%;
-
-}
-
- #dummyDoctor{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100%;
- }
-
-#arrowsSVGDoctors{
- position: absolute;
-top: 117px;
-right: 169px;
-
-}
-
-#doctorsIntro, #doctorsIntro h3{
-    color: white;
+    position:absolute;
+  opacity: 0;
+  bottom: 2000px;
+  padding: 40px;
 }
  
 
-#doctorsIntro{
-    padding: 50px;
+.doctorActive{
+    position: static;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+  
+}
+ 
+#leftColumn button:hover{
+    box-shadow: none;
 }
 
-#doctorsIntro h3{
+#leftColumn button{
+ 
+    padding: 20px;
+    background: #523478;
+   
+    color: white;
+    font-size:15px;
+   
+    width: 68%;
+    margin: 10px auto;
+}
+
+#leftColumn{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+background: #f63680;
+border-top-right-radius: 20px;
+-webkit-box-shadow: 12px -2px 5px -5px rgba(0,0,0,0.21);
+-moz-box-shadow: 12px -2px 5px -5px rgba(0,0,0,0.21);
+box-shadow: 12px -2px 5px -5px rgba(0,0,0,0.21);
+ 
+flex: 0 0 20%;
+
+overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+   
+    position: relative;
+}
+
+#leftColumnArrow{
+    
+    display: none;
+    position: absolute;
+    top: 400px;
+right: 20px;
+    animation: slide1 1s ease-in-out infinite;
+}
+
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(0, 10px);
+    }
+  }
+
+ 
+#leftColumn h2{
+    
+    color: white;
+
+    text-align: center;
+}
+
+
+#rightColumn img{
+    border: 10px solid #00000038;
+border-radius: 10px;
+}
+
+#rightColumn h2{
+    margin-top: 20px !important;
+}
+
+#rightColumn h2, #rightColumn h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
     text-align: left;
 }
 
-.doctor {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 18vw;
-    background: #00000054;
-    padding: 18px;
-    margin: 20px;
-    
-
-}
-
-.doctorInner{
-    /* display: flex !important; */
-    flex-direction: column;
-   
-    align-items: center;
-}
-
  
 
-.doctor p {
-    
-    color: white;
+.content{
+    position: relative;
+    word-break: break-all;
+    width: 750px;
 }
 
-.content {
-
+.content p {
+    max-width: 100%;
     color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    
+}
+
+.attachment-thumbnail {
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -634,7 +643,7 @@ footer{
 }
 
 footer a{
-    color: #E83278;
+    color: #989898;
     text-decoration: none;
 }
 
@@ -766,19 +775,43 @@ bottom: 0;
 }
 
 
-#doctorsDescription{
-    width: 55vw;
-}
+ 
 
   @media screen and (max-width: 1000px){
+
+    #textInBanner{
+        position: relative !important;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    #rightColumn{
+        display: none;
+    }
+
+    #leftColumn{
+        border-top-right-radius: 0;
+        flex: none;
+    }
+
+    .content{width: auto;}
+
+    #doctorsContainer
+    {
+        flex-direction: column;
+    }
+
+    #svgDoctors{
+        display: none;
+    }
 
     #imageDoctor{
         box-shadow: none;
     }
-
-    #arrowsSVGDoctors path{
-        fill: white;
-    }
+ 
 
     .doctor #descriptionBox {
         background: none !important;
@@ -811,12 +844,7 @@ bottom: 0;
         margin-top: 0;
     }
 
-    .doctor #descriptionBox {
-        background: #0000005e;
-border-radius: 10px;
-margin: 20px;
-    }
-
+   
     #reviewContainer{
         padding: 0 10px;
     }
@@ -883,11 +911,7 @@ position: relative;
 
   
     
-    #doctors h2{
-        position: relative;
-        z-index: 2;
-    }
-
+    
     #svgDoctors{
         width: 90%;
         right: 0;
@@ -900,14 +924,7 @@ position: relative;
     h2{
         text-align: center;
     }
-    .doctor{
-        flex-direction: column-reverse;
-    }
-
-    .doctor p{
-        text-align: center;
-    }
-
+   
 
    
 
@@ -1018,7 +1035,10 @@ z-index: 999999;
   
   @media (min-width: 1000px) {
 
- 
+
+    #svgInBanner img{
+        height: 500px;
+    }
 
     .menu-toggle { display: none; }
     
@@ -1049,3 +1069,4 @@ z-index: 999999;
     }
     
 
+ 

@@ -26,7 +26,8 @@
         <div id="top-header">
             <div id="social-icons-top-header">
 
-                <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <a target="_blank" xlink:href="https://www.facebook.com/klinikapregnanta/">
                         <g clip-path="url(#clip0)">
                             <path
@@ -41,7 +42,8 @@
                     </a>
                 </svg>
 
-                <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <a target="_blank" xlink:href="tel:883283939">
                         <g clip-path="url(#clip0)">
                             <path
@@ -56,7 +58,8 @@
                     </a>
                 </svg>
 
-                <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <a target="_blank" xlink:href="mailto:klinikapregnanta@gmail.com">
                         <path
                             d="M29.4643 2.375H3.53571C1.58297 2.375 0 3.96996 0 5.9375V32.0625C0 34.03 1.58297 35.625 3.53571 35.625H29.4643C31.417 35.625 33 34.03 33 32.0625V5.9375C33 3.96996 31.417 2.375 29.4643 2.375ZM13.1202 19.453C6.44008 14.5682 6.50815 14.5559 4.71429 13.1491V11.2812C4.71429 10.2975 5.50577 9.5 6.48214 9.5H26.5179C27.4942 9.5 28.2857 10.2975 28.2857 11.2812V13.1491C26.4905 14.557 26.5595 14.5685 19.8798 19.4531C19.1063 20.0213 17.5674 21.3917 16.5 21.3749C15.4317 21.3911 13.8948 20.0221 13.1202 19.453ZM28.2857 16.163V26.7188C28.2857 27.7025 27.4942 28.5 26.5179 28.5H6.48214C5.50577 28.5 4.71429 27.7025 4.71429 26.7188V16.163C5.74244 16.9641 7.16932 18.036 11.7344 21.3742C12.7776 22.1417 14.5316 23.7599 16.4998 23.7499C18.4803 23.7599 20.2592 22.1141 21.2671 21.3731C25.831 18.0358 27.2576 16.964 28.2857 16.163Z"
@@ -72,7 +75,7 @@
             <div id="znanyLekarz-top-header">
                 <svg class="hrefIcon" width="105" height="17" viewBox="0 0 210 34" xmlns="http://www.w3.org/2000/svg"
                     preserveAspectRatio="xMinYMid meet">
-                    <a  target="_blank" xlink:href="https://www.znanylekarz.pl/agnieszka-szukala">
+                    <a target="_blank" xlink:href="https://www.znanylekarz.pl/agnieszka-szukala">
                         <path
                             d="M198.468 11.181v3.035h6.945l-7.368 10.732v2.207h11.955v-3.035h-7.626l7.396-10.699v-2.24h-11.301zm-10.863 0v15.973h3.644v-7.992c0-2.005 1.53-4.215 4.862-4.866v-3.354c-2.288.126-4.253 1.634-5.059 2.811h-.033l-.258-2.572h-3.155zm-14.353-.309c1.583-.131 3.3-.17 4.958-.17 3.906 0 6.237 1.51 6.237 5.777v10.675h-3.276l-.163-1.598h-.043c-1.123 1.21-2.755 1.917-4.845 1.917-2.768 0-4.967-1.793-4.967-5.345 0-3.304 2.755-6.381 9.651-4.917v-.962c0-1.904-1.116-2.436-3.315-2.436-1.35 0-2.495.091-4.236.24v-3.182zm7.551 8.867c-2.921-.743-5.843.17-5.843 2.428 0 1.498.994 2.378 2.476 2.312 1.168-.052 2.454-.57 3.367-1.379v-3.361zm-19.878 1.652c.463-.296.991-.626 1.487-1.021l3.999 6.784h4.098l-5.387-9.123c1.983-1.943 3.602-4.216 4.957-6.85h-3.867c-1.355 2.404-3.272 4.644-5.288 6.356v-12.746l-3.643.422v21.94h3.643v-5.764zm-20.426-2.174v-.065c0-4.912 2.391-8.449 7.336-8.449 4.585 0 6.714 2.653 6.714 8.22 0 .589-.041 1.403-.105 2.003h-10.123c.262 2.25 1.573 3.594 4.264 3.594 1.703 0 3.303-.159 4.786-.353v3.051c-1.666.261-3.08.417-4.882.417-5.24 0-7.991-2.62-7.991-8.417zm3.766-1.008h6.583c0-2.499-.655-4.472-3.111-4.472-2.554 0-3.406 2.105-3.471 4.472zm-16.478-13.417v22.362h11.815v-3.616h-7.834v-18.746h-3.981zm-16.215 6.389c1.153 4.545 3.853 13.114 5.264 16.452-.912 2.063-2.387 3.106-5.165 2.951v2.865c5.997.804 7.628-3.66 8.76-6.295 1.132-2.636 4.018-11.428 5.204-15.973h-3.82c-.659 2.997-2.305 8.892-3.162 11.889h-.066c-.889-2.964-2.536-8.859-3.162-11.889h-3.853zm-15.893 0v15.973h3.644v-8.401c0-2.543 1.985-4.577 3.765-4.702 1.964-.138 2.964.879 2.964 3.476v9.626h3.644v-10.377c0-4.069-1.87-6.075-5.637-6.075-2.231 0-4.075 1.259-4.953 2.636h-.043c-.065-.571-.212-2.156-.212-2.156h-3.171zm-14.353-.309c1.583-.131 3.3-.17 4.958-.17 3.906 0 6.237 1.51 6.237 5.777v10.675h-3.276l-.163-1.598h-.043c-1.123 1.21-2.755 1.917-4.845 1.917-2.768 0-4.967-1.793-4.967-5.345 0-3.304 2.755-6.381 9.65-4.917v-.962c0-1.904-1.116-2.436-3.315-2.436-1.35 0-2.495.091-4.236.24v-3.182zm7.551 8.867c-2.921-.743-5.843.17-5.843 2.428 0 1.498.994 2.378 2.476 2.312 1.168-.052 2.454-.57 3.367-1.379v-3.361zm-26.023-8.557v15.973h3.644v-8.401c0-2.543 1.985-4.577 3.765-4.702 1.964-.138 2.964.879 2.964 3.476v9.626h3.644v-10.377c0-4.069-1.87-6.075-5.637-6.075-2.231 0-4.075 1.259-4.953 2.636h-.043c-.065-.571-.212-2.156-.212-2.156h-3.171zm-17.541-6.389v3.616h9.356l-9.945 15.657v3.089h15.121v-3.616h-10.086l9.92-15.727v-3.019h-14.366zm-26.71 21.027l5.272 6.127 5.255-3.818-5.13-8.488c-2.317 1.429-4.589 4.199-5.396 6.179zm-7.578 6.118c4.332-8.834 12.605-15.378 22.519-17.331l-2.015-6.206c-12.028 1.358-22.261 8.648-27.737 18.884l7.233 4.652zm1.579-21.069l-10.598-2.495-2.006 6.188 7.358 3.106c1.509-1.526 3.196-2.857 5.05-3.994 2.512-1.544 4.705-2.566 8.433-3.844l-.826-9.828h-6.498l-.914 10.868z"
                             fill="#FFFFFF"></path>
@@ -91,11 +94,11 @@
                 <div class="hrefIcon" id="znanyLekarz-main-header">
                     <svg width="105" height="17" viewBox="0 0 210 34" xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="xMinYMid meet">
-                        <a  target="_blank" xlink:href="https://www.znanylekarz.pl/agnieszka-szukala">
-                        <path
-                            d="M198.468 11.181v3.035h6.945l-7.368 10.732v2.207h11.955v-3.035h-7.626l7.396-10.699v-2.24h-11.301zm-10.863 0v15.973h3.644v-7.992c0-2.005 1.53-4.215 4.862-4.866v-3.354c-2.288.126-4.253 1.634-5.059 2.811h-.033l-.258-2.572h-3.155zm-14.353-.309c1.583-.131 3.3-.17 4.958-.17 3.906 0 6.237 1.51 6.237 5.777v10.675h-3.276l-.163-1.598h-.043c-1.123 1.21-2.755 1.917-4.845 1.917-2.768 0-4.967-1.793-4.967-5.345 0-3.304 2.755-6.381 9.651-4.917v-.962c0-1.904-1.116-2.436-3.315-2.436-1.35 0-2.495.091-4.236.24v-3.182zm7.551 8.867c-2.921-.743-5.843.17-5.843 2.428 0 1.498.994 2.378 2.476 2.312 1.168-.052 2.454-.57 3.367-1.379v-3.361zm-19.878 1.652c.463-.296.991-.626 1.487-1.021l3.999 6.784h4.098l-5.387-9.123c1.983-1.943 3.602-4.216 4.957-6.85h-3.867c-1.355 2.404-3.272 4.644-5.288 6.356v-12.746l-3.643.422v21.94h3.643v-5.764zm-20.426-2.174v-.065c0-4.912 2.391-8.449 7.336-8.449 4.585 0 6.714 2.653 6.714 8.22 0 .589-.041 1.403-.105 2.003h-10.123c.262 2.25 1.573 3.594 4.264 3.594 1.703 0 3.303-.159 4.786-.353v3.051c-1.666.261-3.08.417-4.882.417-5.24 0-7.991-2.62-7.991-8.417zm3.766-1.008h6.583c0-2.499-.655-4.472-3.111-4.472-2.554 0-3.406 2.105-3.471 4.472zm-16.478-13.417v22.362h11.815v-3.616h-7.834v-18.746h-3.981zm-16.215 6.389c1.153 4.545 3.853 13.114 5.264 16.452-.912 2.063-2.387 3.106-5.165 2.951v2.865c5.997.804 7.628-3.66 8.76-6.295 1.132-2.636 4.018-11.428 5.204-15.973h-3.82c-.659 2.997-2.305 8.892-3.162 11.889h-.066c-.889-2.964-2.536-8.859-3.162-11.889h-3.853zm-15.893 0v15.973h3.644v-8.401c0-2.543 1.985-4.577 3.765-4.702 1.964-.138 2.964.879 2.964 3.476v9.626h3.644v-10.377c0-4.069-1.87-6.075-5.637-6.075-2.231 0-4.075 1.259-4.953 2.636h-.043c-.065-.571-.212-2.156-.212-2.156h-3.171zm-14.353-.309c1.583-.131 3.3-.17 4.958-.17 3.906 0 6.237 1.51 6.237 5.777v10.675h-3.276l-.163-1.598h-.043c-1.123 1.21-2.755 1.917-4.845 1.917-2.768 0-4.967-1.793-4.967-5.345 0-3.304 2.755-6.381 9.65-4.917v-.962c0-1.904-1.116-2.436-3.315-2.436-1.35 0-2.495.091-4.236.24v-3.182zm7.551 8.867c-2.921-.743-5.843.17-5.843 2.428 0 1.498.994 2.378 2.476 2.312 1.168-.052 2.454-.57 3.367-1.379v-3.361zm-26.023-8.557v15.973h3.644v-8.401c0-2.543 1.985-4.577 3.765-4.702 1.964-.138 2.964.879 2.964 3.476v9.626h3.644v-10.377c0-4.069-1.87-6.075-5.637-6.075-2.231 0-4.075 1.259-4.953 2.636h-.043c-.065-.571-.212-2.156-.212-2.156h-3.171zm-17.541-6.389v3.616h9.356l-9.945 15.657v3.089h15.121v-3.616h-10.086l9.92-15.727v-3.019h-14.366zm-26.71 21.027l5.272 6.127 5.255-3.818-5.13-8.488c-2.317 1.429-4.589 4.199-5.396 6.179zm-7.578 6.118c4.332-8.834 12.605-15.378 22.519-17.331l-2.015-6.206c-12.028 1.358-22.261 8.648-27.737 18.884l7.233 4.652zm1.579-21.069l-10.598-2.495-2.006 6.188 7.358 3.106c1.509-1.526 3.196-2.857 5.05-3.994 2.512-1.544 4.705-2.566 8.433-3.844l-.826-9.828h-6.498l-.914 10.868z"
-                            fill="#FFFFFF"></path>
-</a>
+                        <a target="_blank" xlink:href="https://www.znanylekarz.pl/agnieszka-szukala">
+                            <path
+                                d="M198.468 11.181v3.035h6.945l-7.368 10.732v2.207h11.955v-3.035h-7.626l7.396-10.699v-2.24h-11.301zm-10.863 0v15.973h3.644v-7.992c0-2.005 1.53-4.215 4.862-4.866v-3.354c-2.288.126-4.253 1.634-5.059 2.811h-.033l-.258-2.572h-3.155zm-14.353-.309c1.583-.131 3.3-.17 4.958-.17 3.906 0 6.237 1.51 6.237 5.777v10.675h-3.276l-.163-1.598h-.043c-1.123 1.21-2.755 1.917-4.845 1.917-2.768 0-4.967-1.793-4.967-5.345 0-3.304 2.755-6.381 9.651-4.917v-.962c0-1.904-1.116-2.436-3.315-2.436-1.35 0-2.495.091-4.236.24v-3.182zm7.551 8.867c-2.921-.743-5.843.17-5.843 2.428 0 1.498.994 2.378 2.476 2.312 1.168-.052 2.454-.57 3.367-1.379v-3.361zm-19.878 1.652c.463-.296.991-.626 1.487-1.021l3.999 6.784h4.098l-5.387-9.123c1.983-1.943 3.602-4.216 4.957-6.85h-3.867c-1.355 2.404-3.272 4.644-5.288 6.356v-12.746l-3.643.422v21.94h3.643v-5.764zm-20.426-2.174v-.065c0-4.912 2.391-8.449 7.336-8.449 4.585 0 6.714 2.653 6.714 8.22 0 .589-.041 1.403-.105 2.003h-10.123c.262 2.25 1.573 3.594 4.264 3.594 1.703 0 3.303-.159 4.786-.353v3.051c-1.666.261-3.08.417-4.882.417-5.24 0-7.991-2.62-7.991-8.417zm3.766-1.008h6.583c0-2.499-.655-4.472-3.111-4.472-2.554 0-3.406 2.105-3.471 4.472zm-16.478-13.417v22.362h11.815v-3.616h-7.834v-18.746h-3.981zm-16.215 6.389c1.153 4.545 3.853 13.114 5.264 16.452-.912 2.063-2.387 3.106-5.165 2.951v2.865c5.997.804 7.628-3.66 8.76-6.295 1.132-2.636 4.018-11.428 5.204-15.973h-3.82c-.659 2.997-2.305 8.892-3.162 11.889h-.066c-.889-2.964-2.536-8.859-3.162-11.889h-3.853zm-15.893 0v15.973h3.644v-8.401c0-2.543 1.985-4.577 3.765-4.702 1.964-.138 2.964.879 2.964 3.476v9.626h3.644v-10.377c0-4.069-1.87-6.075-5.637-6.075-2.231 0-4.075 1.259-4.953 2.636h-.043c-.065-.571-.212-2.156-.212-2.156h-3.171zm-14.353-.309c1.583-.131 3.3-.17 4.958-.17 3.906 0 6.237 1.51 6.237 5.777v10.675h-3.276l-.163-1.598h-.043c-1.123 1.21-2.755 1.917-4.845 1.917-2.768 0-4.967-1.793-4.967-5.345 0-3.304 2.755-6.381 9.65-4.917v-.962c0-1.904-1.116-2.436-3.315-2.436-1.35 0-2.495.091-4.236.24v-3.182zm7.551 8.867c-2.921-.743-5.843.17-5.843 2.428 0 1.498.994 2.378 2.476 2.312 1.168-.052 2.454-.57 3.367-1.379v-3.361zm-26.023-8.557v15.973h3.644v-8.401c0-2.543 1.985-4.577 3.765-4.702 1.964-.138 2.964.879 2.964 3.476v9.626h3.644v-10.377c0-4.069-1.87-6.075-5.637-6.075-2.231 0-4.075 1.259-4.953 2.636h-.043c-.065-.571-.212-2.156-.212-2.156h-3.171zm-17.541-6.389v3.616h9.356l-9.945 15.657v3.089h15.121v-3.616h-10.086l9.92-15.727v-3.019h-14.366zm-26.71 21.027l5.272 6.127 5.255-3.818-5.13-8.488c-2.317 1.429-4.589 4.199-5.396 6.179zm-7.578 6.118c4.332-8.834 12.605-15.378 22.519-17.331l-2.015-6.206c-12.028 1.358-22.261 8.648-27.737 18.884l7.233 4.652zm1.579-21.069l-10.598-2.495-2.006 6.188 7.358 3.106c1.509-1.526 3.196-2.857 5.05-3.994 2.512-1.544 4.705-2.566 8.433-3.844l-.826-9.828h-6.498l-.914 10.868z"
+                                fill="#FFFFFF"></path>
+                        </a>
                     </svg>
                 </div>
 
@@ -139,7 +142,8 @@
                 <div id="social-icons-menu-overlay">
 
                     <a target="_blank" href="https://www.facebook.com/klinikapregnanta/">
-                        <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
 
                             <g clip-path="url(#clip0)">
                                 <path
@@ -156,7 +160,8 @@
                     </a>
 
                     <a target="_blank" href="tel:883283939">
-                        <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
 
                             <g clip-path="url(#clip0)">
                                 <path
@@ -173,7 +178,8 @@
                     </a>
 
                     <a target="_blank" href="mailto:klinikapregnanta@gmail.com">
-                        <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="hrefIcon" width="33" height="38" viewBox="0 0 33 38" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
 
                             <path
                                 d="M29.4643 2.375H3.53571C1.58297 2.375 0 3.96996 0 5.9375V32.0625C0 34.03 1.58297 35.625 3.53571 35.625H29.4643C31.417 35.625 33 34.03 33 32.0625V5.9375C33 3.96996 31.417 2.375 29.4643 2.375ZM13.1202 19.453C6.44008 14.5682 6.50815 14.5559 4.71429 13.1491V11.2812C4.71429 10.2975 5.50577 9.5 6.48214 9.5H26.5179C27.4942 9.5 28.2857 10.2975 28.2857 11.2812V13.1491C26.4905 14.557 26.5595 14.5685 19.8798 19.4531C19.1063 20.0213 17.5674 21.3917 16.5 21.3749C15.4317 21.3911 13.8948 20.0221 13.1202 19.453ZM28.2857 16.163V26.7188C28.2857 27.7025 27.4942 28.5 26.5179 28.5H6.48214C5.50577 28.5 4.71429 27.7025 4.71429 26.7188V16.163C5.74244 16.9641 7.16932 18.036 11.7344 21.3742C12.7776 22.1417 14.5316 23.7599 16.4998 23.7499C18.4803 23.7599 20.2592 22.1141 21.2671 21.3731C25.831 18.0358 27.2576 16.964 28.2857 16.163Z"
@@ -274,7 +280,7 @@
             <img id="banner-image" src="<?php echo get_bloginfo('template_directory'); ?>/img/banner-ofi.jpg">
 
 
-            <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="200"
                 id="textInBanner">
                 <span style="color:#F63680;"><b>Klinika Pregnanta</b></span> <br> miejsce, w którym priorytetem jest
                 zdrowie i
@@ -294,7 +300,7 @@
                         fill="#513478" />
                 </svg>
 
-                <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">Pomagamy naszym pacjentkom na każdym etapie
+                <p data-aos="fade-up" data-aos-offset="300" data-aos-anchor-placement="top-bottom">Pomagamy naszym pacjentkom na każdym etapie
                     życia - wprowadzamy nastolatki w świat kobiecości,
                     towarzyszymy im w ciąży i podczas porodu, a także ułatwiamy przejście w okres menopauzy.</p>
 
@@ -349,151 +355,86 @@ if ( $query->have_posts() ) : ?>
 
 
     <section id="doctors">
-        <h2 style="color: white;">Nasi specjaliści</h2>
+
 
 
         <img id="svgDoctors" src="<?php echo get_bloginfo('template_directory'); ?>/svg/svgDoctors.svg">
 
-
-        <div id="doctorsWrapper">
-
-        <div id="doctorsIntro">
-
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-            <p id="doctorsDescription">Eligendi aliquid magnam
-                necessitatibus cupiditate. Accusamus omnis possimus commodi! Dolore natus optio, sequi asperiores quo
-                molestias rem aspernatur officiis sapiente, quidem distinctio.</p>
-
-        </div>
-
-        <svg id="arrowsSVGDoctors" width="81" height="8" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M80.3536 4.35355C80.5488 4.15829 80.5488 3.84171 80.3536 3.64645L77.1716 0.464466C76.9763 0.269204 76.6597 0.269204 76.4645 0.464466C76.2692 0.659728 76.2692 0.976311 76.4645 1.17157L79.2929 4L76.4645 6.82843C76.2692 7.02369 76.2692 7.34027 76.4645 7.53553C76.6597 7.7308 76.9763 7.7308 77.1716 7.53553L80.3536 4.35355ZM50 4.5H80V3.5H50V4.5Z"
-                fill="black" />
-            <path
-                d="M0.646446 3.64645C0.451184 3.84171 0.451184 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659729 4.53553 0.464467C4.34027 0.269204 4.02369 0.269204 3.82843 0.464467L0.646446 3.64645ZM31 3.5L1 3.5V4.5L31 4.5V3.5Z"
-                fill="black" />
-        </svg>
-          
         <div id="doctorsContainer">
+
+            <div id="leftColumn">
+
+            <svg id="leftColumnArrow" width="9" height="25" viewBox="0 0 9 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.14663 24.8533C4.34189 25.0486 4.65847 25.0486 4.85374 24.8533L8.03572 21.6713C8.23098 21.4761 8.23098 21.1595 8.03572 20.9642C7.84045 20.769 7.52387 20.769 7.32861 20.9642L4.50018 23.7927L1.67176 20.9642C1.47649 20.769 1.15991 20.769 0.964649 20.9642C0.769387 21.1595 0.769387 21.4761 0.964649 21.6713L4.14663 24.8533ZM4.00018 0.499756L4.00018 24.4998H5.00018L5.00018 0.499756L4.00018 0.499756Z" fill="white"/>
+</svg>
+
+
+                <h2>Nasi specjaliści</h2>
+
+
+                <?php
+
+$args = array(
+    'post_type' => 'lekarze',
      
+);
 
-        <?php
+$the_query = new WP_Query( $args );
+$the_count = $the_query->found_posts;
+ 
+ while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-    $args = array(
-        'post_type' => 'lekarze',
-         
-    );
-    
-    $the_query = new WP_Query( $args );
-    $the_count = $the_query->found_posts;
-     if ( $the_count > 1 ) : 
-     while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
- <!-- the_field('title'); -->
+                <button class="doctorButton"><?php the_title(); ?></button>
 
- <div class="doctor">
-<div class="doctorInner">
-    <div id="imageDoctor"></div>
-    <p><?php the_title(); ?></p>
-    <div id="descriptionBox">
-    <button style="margin: 20px 0;"><a style="text-decoration: none; color: white; font-weight: 500;" href="https://www.znanylekarz.pl/agnieszka-szukala" target="_blank">Umów wizytę</a></button>
-        <button class="collapsible">Czytaj więcej</button>
-        <div class="content">
-            <p><?php the_content() ?> </p>
-
+                <?php endwhile; ?>
             </div>
-          
-          </div>
-      </div>
-      </div>
 
- 
-  
- 
- 
-
-<?php endwhile; else : ?>
-
-    <?php
-    echo <<<FOO
-    <div class="doctor">
-
-    <div class="doctorInner">
-        <div id="imageDoctor"></div>
-        <p>Dr n. med. Agnieszka Szukała</p>
+            <div id="rightColumn">
 
 
-        <div id="descriptionBox">
-
-        <button style="margin: 20px 0;"><a style="text-decoration: none; color: white; font-weight: 500;" href="https://www.znanylekarz.pl/agnieszka-szukala" target="_blank">Umów wizytę</button></a>
-
-            <button class="collapsible">Czytaj więcej</button>
-            <div class="content">
-                <p>
-
-                    Absolwentka Wydziału Lekarskiego Uniwersytetu Medycznego w Łodzi. Uzyskała tytuł doktora
-                    nauk medycznych w 2013 r. - decyzją Rady Wydziału Lekarskiego Uniwersytetu Medycznego w Łodzi.
-                    Specjalista w dziedzinie położnictwa i ginekologii.
 
 
-                    Specjalizacja z zakresu położnictwa i ginekologii zrealizowana w Klinice położnictwa i
-                    Ginekologii
-                    Instytutu Centrum Zdrowia Matki Polki
-                    w Łodzi.
-                </p>
-                <p>
-                    Odbyła liczne staże zagraniczne w klinikach niemieckich:
-                    <ul>
-                        <li>Maria-Hilf Krankenhaus, Brilon, Deutschland 2008 r.</li>
-                        <li>Klinikum Hoyerswerda, Hoyerswerda, Deutschland 2008 r.</li>
-                        <li>Fachabteilung fur Gynakologie und Gebursthilfe, Krankenhaus Hoxter, Hoxter,
-                            Deutschland
-                            2011 r.</li>
-                        <li>Helios Klinikum, Plauen, Deutschland 2012 r.</li>
-                        <li>Fachateilung fur Gynakologie und Geburtshilfe Klinikum Westfalen, Dortmund,
-                            Deutschland
-                            2012 r.</li>
-                    </ul> <br>
-                    <p>
-                        Uczestniczka wielu szkoleń i kongresów naukowych z zakresu ginekologii i położnictwa,
-                        ultrasonografii oraz medycyny estetycznej.
-                        Wykonuje zabiegi z zakresu medycyny i ginekologii estetycznej.</p>
+                <?php
+        
+        while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-            </div>
-          
+
+                <div class="doctor">
+
+
+                    <?php the_post_thumbnail('thumbnail'); ?>
+                    <h2><?php the_title(); ?></h2>
+
+                    <a href="https://www.znanylekarz.pl/agnieszka-szukala" target="_blank"> <button
+                            style="background: #f63680; margin: 20px 0; text-decoration: none; color: white; font-weight: 500;">Umów
+                            wizytę</button></a>
+
+
+                    <h3>O mnie</h3>
+                    <div class="content">
+                       <?php the_content() ?> 
+
+                    </div>
+
+                </div>
+
+
+                <?php endwhile; ?>
             </div>
         </div>
-        </div>
-        <div class="doctor">
 
-        <div id="dummyDoctor">
-          
-            </div>
-             
-        </div>
-FOO;
-?>
-<?php endif;?>
 
-    
- 
- 
- 
-    
-
- 
-        </div>
     </section>
 
+ 
 
-
-    <section id="money">
+    <section   id="money">
 
         <h2>Cennik</h2>
 
 
 
-        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" id="moneyContainer">
+        <div data-aos="fade-up"  data-aos-anchor-placement="center-bottom" id="moneyContainer">
 
 
 
@@ -637,11 +578,11 @@ if ( $query->have_posts() ) : ?>
     <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/slick/slick.min.js"></script>
 
 
-    <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/script.js"></script>
+    <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/customscript.js"></script>
     <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/scrollTo.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({disable: 'mobile'});
     </script>
 
 </body>

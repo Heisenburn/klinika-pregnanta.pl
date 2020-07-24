@@ -134,7 +134,8 @@ add_action('init', 'my_custom_init');
         // 'portfolio' is my post type, you replace it with yours
         add_post_type_support( 'Lekarze', 'thumbnail' ); 
         add_theme_support('post-thumbnails');
+ 
     }
  
-
+   
 ?>

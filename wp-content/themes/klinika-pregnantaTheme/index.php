@@ -316,7 +316,7 @@
 
 
 
-    <section id="services">
+    <section id="services" >
 
         <h3>Zagadnienia jakimi zajmują się Nasi Specjaliści:</h3>
 
@@ -351,80 +351,97 @@ if ( $query->have_posts() ) : ?>
                 fill="black" />
         </svg>
 
+        <a id="toggleListView" href="#!">Zobacz w formie listy</a>
+
     </section>
 
 
+  
     <section id="doctors">
 
 
 
-        <img id="svgDoctors" src="<?php echo get_bloginfo('template_directory'); ?>/svg/svgDoctors.svg">
+<img id="svgDoctors" src="<?php echo get_bloginfo('template_directory'); ?>/svg/svgDoctors.svg">
+ 
+<h2>Nasi specjaliści</h2>
 
-        <div id="doctorsContainer">
+<div id="doctorsContainer">
 
-            <div id="leftColumn">
-
-            <svg id="leftColumnArrow" width="9" height="25" viewBox="0 0 9 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.14663 24.8533C4.34189 25.0486 4.65847 25.0486 4.85374 24.8533L8.03572 21.6713C8.23098 21.4761 8.23098 21.1595 8.03572 20.9642C7.84045 20.769 7.52387 20.769 7.32861 20.9642L4.50018 23.7927L1.67176 20.9642C1.47649 20.769 1.15991 20.769 0.964649 20.9642C0.769387 21.1595 0.769387 21.4761 0.964649 21.6713L4.14663 24.8533ZM4.00018 0.499756L4.00018 24.4998H5.00018L5.00018 0.499756L4.00018 0.499756Z" fill="white"/>
-</svg>
-
-
-                <h2>Nasi specjaliści</h2>
-
-
-                <?php
+<?php
 
 $args = array(
-    'post_type' => 'lekarze',
-     
+'post_type' => 'lekarze',
+
 );
 
 $the_query = new WP_Query( $args );
 $the_count = $the_query->found_posts;
+
+  ?>
+
+<?php
+
+while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
+
  
- while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+<div class="doctor">
 
-                <button class="doctorButton"><?php the_title(); ?></button>
-
-                <?php endwhile; ?>
-            </div>
-
-            <div id="rightColumn">
-
-
+<div class="overlay">
+    <div class="overlayText">Umów się</div>
+    </div>
+<?php the_post_thumbnail('thumbnail'); ?>
+<p class="doctorName"><?php the_title(); ?></p>
+</div>
 
 
-                <?php
-        
-        while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+ 
+ 
+     
+
+<?php endwhile; ?>
 
 
-                <div class="doctor">
+</div>
+ 
+ 
+<button id="showDoctorsButton">Wszyscy lekarze</button>
+
+<!-- Trigger/Open The Modal -->
+<!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal -->
+<div id="myModal" class="doctorPopup">
+
+  <!-- Modal content -->
+  <div class="doctorBox">
+  <span class="close">&times;</span>
+  <div id="doctorContainer">
+  <div id="photoAndButton">
+  <div class="doctorInPopup"></div>
+ 
+  <button>Umów wizytę</button> </div>
+  <div class="textInDoctor">
+     <h2 style="color: white;">Dr.n.med Agnieszka</h2>
+     <p style="font-style: italic;">Lekarz</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit fugiat quam commodi cupiditate adipisci quibusdam repudiandae eos accusantium, voluptatibus recusandae soluta aperiam tempora? Quis veritatis natus libero quam nihil itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit enim voluptas nemo dolores, velit nesciunt. Id odit nam, nostrum tempora doloremque reprehenderit temporibus ipsum soluta saepe, eos minus culpa iste!</p>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim perspiciatis fuga dolor delectus ipsa non nisi voluptates eos consequatur quibusdam nostrum consequuntur dolore, earum eaque? Accusantium nostrum necessitatibus fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quo sunt ducimus perspiciatis quas voluptatem ex doloremque veritatis doloribus laboriosam. Consectetur optio temporibus maiores pariatur distinctio asperiores totam natus perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos porro amet. Tenetur explicabo ab incidunt. Id impedit odio est dolorem esse doloribus, quaerat cum itaque quisquam ipsum nobis atque.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+<!-- <div class="doctorPopup">
+
+    <div class="doctorBox">
 
 
-                    <?php the_post_thumbnail('thumbnail'); ?>
-                    <h2><?php the_title(); ?></h2>
+    </div>
 
-                    <a href="https://www.znanylekarz.pl/agnieszka-szukala" target="_blank"> <button
-                            style="background: #f63680; margin: 20px 0; text-decoration: none; color: white; font-weight: 500;">Umów
-                            wizytę</button></a>
+    </div> -->
 
-
-                    <h3>O mnie</h3>
-                    <div class="content">
-                       <?php the_content() ?> 
-
-                    </div>
-
-                </div>
-
-
-                <?php endwhile; ?>
-            </div>
-        </div>
-
-
-    </section>
+</section>
 
  
 
@@ -582,6 +599,7 @@ if ( $query->have_posts() ) : ?>
     <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/scrollTo.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        
         AOS.init({disable: 'mobile'});
     </script>
 

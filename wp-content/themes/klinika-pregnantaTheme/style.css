@@ -5,6 +5,8 @@ Description: Klinika-pregnanta.pl
 Version: 0.0.1
 */
 
+ 
+
 body {
     padding: 0;
     margin: 0;
@@ -164,6 +166,38 @@ nav li a:hover {
     flex-direction: column;
 }
 
+#toggleListView{
+    text-decoration: none;
+    align-self: flex-start;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #523478;
+    padding: 20px;
+border-bottom: 1px solid;
+}
+
+.listView{
+    
+    flex-direction: column;
+    width: auto !important;
+    justify-content: none !important;
+    align-items: none !important;
+    
+}
+
+.listViewServiceSlider{
+    padding: 5px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+    width: 76% !important;
+    margin: 10px auto !important;
+ 
+height: auto !important;
+}
+
+#services h3{
+    font-size: 25px;
+}
+
 h2 {
 
     font-weight: 500;
@@ -202,9 +236,9 @@ h3 {
  
 
 #servicesCarrousel {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 
  
@@ -216,11 +250,11 @@ h3 {
     background: rgba(247, 52, 127, 0.79);
     border-radius: 6px;
  
-    height: 170px !important;
+    height: 170px;
     padding: 20px;
 
-    display: flex !important;
-    justify-content: center;
+    display: flex;
+    justify-content: stretch;
     align-items: center;
 }
 
@@ -317,151 +351,205 @@ button:hover, button:active {
     transform: translateY(4px);
 }
 
-#svgDoctors{
-    position: absolute;
-right: 0;
-z-index: 0;
-top: 0;
-}
 
-#doctorsContainer{
-    display: flex;
+.attachment-thumbnail {
+    max-width: 100%;
  
 }
-
-.doctor button{
-    background: #F63680;
-}
-
 
 
 #doctors{
     position: relative;
-    background: #523478;
-}
- 
-
-.doctor li{
-    color: white;
-}
-
-.doctor{
-
-    position:absolute;
-  opacity: 0;
-  bottom: 2000px;
-  padding: 40px;
-}
- 
-
-.doctorActive{
-    position: static;
-    opacity: 1;
-    transition: opacity 0.5s linear;
   
+    min-height: 600px;
 }
  
-#leftColumn button:hover{
-    box-shadow: none;
+#svgDoctors{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    right: 0;
+   
 }
 
-#leftColumn button{
- 
-    padding: 20px;
-    background: #523478;
-   
-    color: white;
-    font-size:15px;
-   
-    width: 68%;
-    margin: 10px auto;
-}
-
-#leftColumn{
-    height: 20rem;
+#doctorsContainer{
     display: flex;
-    flex-direction: column;
-background: #f63680;
-border-top-right-radius: 20px;
--webkit-box-shadow: 12px -2px 5px -5px rgba(0,0,0,0.21);
--moz-box-shadow: 12px -2px 5px -5px rgba(0,0,0,0.21);
-box-shadow: 12px -2px 5px -5px rgba(0,0,0,0.21);
- 
-flex: 0 0 20%;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    width: 71%;
+    align-items: center;
+    margin: 0 auto;
+}
 
-overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-   
+.doctorName{
+    font-style: normal;
+font-weight: 300;
+font-size: 14px;
+text-align: center; 
+
+
+}
+
+
+#showDoctorsButton{
+    display: none;
+padding: 23px 0;
+margin: 20px auto;
+}
+
+
+.doctor:hover{    box-shadow: 0 5px rgba(0, 0, 0, 0.336);
+    transform: translateY(4px);}
+
+.doctor, .doctorInPopup{
+    margin: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #C4C4C4;
     position: relative;
 }
 
-#leftColumnArrow{
-    
-    display: none;
-    position: absolute;
-    top: 400px;
-right: 20px;
-    animation: slide1 1s ease-in-out infinite;
+.doctor img, .doctor, .doctorInPopup{
+    width: 185px;
+    height: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    object-fit: cover;
 }
 
-@keyframes slide1 {
-    0%,
-    100% {
-      transform: translate(0, 0);
-    }
+#doctorContainer{
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.textInDoctor{
+    width: 50%;
+    padding-top: 25px;
+}
+
+#photoAndButton{
+    display: flex;
+flex-direction: column;
+ 
+align-items: center;
+}
+
+#photoAndButton button{
+
+    color: white;
+    background: #F63680;
+}
+
+.textInDoctor h2{
+    color: white;
+text-align: left;
+padding: 0;
+ 
+margin-top: 20px;
+}
+
+/* The Modal (background) */
+.doctorPopup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: -70px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    
+    background: #F63680;
+  }
   
-    50% {
-      transform: translate(0, 10px);
-    }
+  /* Modal Content */
+  .doctorBox {
+    border-radius: 20px;
+    position: relative;
+    background-color: #513478;
+    margin: auto;
+    padding: 0;
+ 
+    width: 60%;
+    min-height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    margin: 20px;
+z-index: 999999999999999;
+
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+ 
+  
+  
+.doctorBox p{
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #513478;
+    border-radius: 10px ;
+  }
+  
+  .doctor:hover .overlay {
+    opacity: 1;
   }
 
  
-#leftColumn h2{
-    
+  
+  .overlayText{
     color: white;
-
-    text-align: center;
-}
-
-
-#rightColumn img{
-    border: 10px solid #00000038;
-border-radius: 10px;
-}
-
-#rightColumn h2{
-    margin-top: 20px !important;
-}
-
-#rightColumn h2, #rightColumn h3{
-    margin: 0;
-    padding: 0;
     font-size: 20px;
-    color: white;
-    text-align: left;
-}
-
- 
-
-.content{
-    position: relative;
-    word-break: break-all;
-    width: 750px;
-}
-
-.content p {
-    max-width: 100%;
-    color: white;
-    
-}
-
-.attachment-thumbnail {
-    width: 150px;
-    height: 150px;
-}
-
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
  
 #contact #leftWave {
     position: absolute;
@@ -798,47 +886,9 @@ bottom: 0;
     }
 
     .content{width: auto;}
-
-    #doctorsContainer
-    {
-        flex-direction: column;
-    }
-
-    #svgDoctors{
-        display: none;
-    }
-
-    #imageDoctor{
-        box-shadow: none;
-    }
  
 
-    .doctor #descriptionBox {
-        background: none !important;
-    }
-
-    #doctors h2{
-        text-align: left;
-    }
-
-    #doctorsDescription{
-        width: auto;
-    }
-
-    #doctorsContainer{
-        width: 100%;
-         
-    }
-
-    #arrowsSVGDoctors{
-        position: static;
-    }
-
-    #doctorsWrapper{
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
+   
 
     #contactValues{
         margin-top: 0;
@@ -912,10 +962,6 @@ position: relative;
   
     
     
-    #svgDoctors{
-        width: 90%;
-        right: 0;
-    }
 
     .content{
         padding: 20px;
